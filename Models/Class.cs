@@ -12,5 +12,6 @@ namespace Students.Models
 
         [MaxLength(100)]
         public string? Description { get; set; }
+        public virtual ICollection<StudentClass> StudentClasses { get;}
     }
 }

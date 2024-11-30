@@ -19,7 +19,7 @@ namespace Students.Models
         [Required]
         [EmailAddress]
         public string? EmailId { get; set; }
-        public ICollection<int> ClassIds { get; set; }
+        public ICollection<StudentClass> StudentClasses { get; set; }
 
 
     }
